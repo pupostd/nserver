@@ -5,7 +5,7 @@ const app = express()
 
 const { lookUpID } = require('./service')
 
-const HTTP_PORT = process.env.PORT || 8081
+const HTTP_PORT = process.env.PORT || 80
 
 function onHttpStart() {
 	console.log("Express running on:", HTTP_PORT)
