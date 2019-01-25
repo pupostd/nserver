@@ -12,6 +12,8 @@ const usersDB = [
 
 const lookUpID = (id) => {
 	return new Promise((resolve, reject) => {
+
+		// Accessing a database async
 		for (i = 0; i < usersDB.length; i++) {
 			user = usersDB[i]
 			console.log("User:", user)
